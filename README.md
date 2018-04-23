@@ -19,12 +19,12 @@ Java语言设计模式总结和Demo，部分参考《Head First Design Patterns�
 
 ## 结构型模式
 
+- [装饰模式(Decorator)](https://github.com/yaeljiao/design-patterns/blob/master/decorator/README.md)
 - 外观模式(Facade)
 - 适配器模式(Adapter)
 - 代理模式(Proxy)
 - 组合模式(Composite)
 - 享元模式(Flyweight)
-- 装饰模式(Decorator)
 - 桥模式(Bridge)
 
 
