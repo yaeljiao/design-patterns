@@ -33,9 +33,9 @@ Java语言设计模式总结和Demo，部分参考《Head First Design Patterns�
 
 ## 行为型模式
 
-* [策略模式（Strategy）](https://github.com/yaeljiao/design-patterns/blob/master/strategy/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.md)
+* [策略模式（Strategy）](https://github.com/yaeljiao/design-patterns/blob/master/strategy/README.md)
+* [观察者模式（Observer）](https://github.com/yaeljiao/design-patterns/blob/master/observer/README.md)
 * 中介者模式（Mediator）
-* 观察者模式（Observer）
 * 命令模式（Command）
 * 迭代器模式（Iterator）
 * 模板方法模式（Template Method）
