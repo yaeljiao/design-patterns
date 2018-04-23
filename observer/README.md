@@ -1,4 +1,4 @@
-# observer method 观察者模式
+# 观察者模式
 
 
 

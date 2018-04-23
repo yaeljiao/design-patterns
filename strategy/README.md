@@ -1,4 +1,4 @@
-# strategy method 策略模式
+# 策略模式
 
 
 
