@@ -12,5 +12,6 @@
         <module>strategy</module>
         <module>observer</module>
         <module>singleton</module>
+        <module>decorator</module>
     </modules>
 </project>
