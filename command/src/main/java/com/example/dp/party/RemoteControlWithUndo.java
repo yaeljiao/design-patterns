@@ -1,7 +1,8 @@
-package com.example.dp.complexremotewithundo;
+package com.example.dp.party;
 
-import com.example.dp.complexremotewithundo.command.Command;
-import com.example.dp.complexremotewithundo.command.NoCommand;
+
+import com.example.dp.party.command.Command;
+import com.example.dp.party.command.NoCommand;
 
 public class RemoteControlWithUndo {
     private Command[] onCommands;
@@ -58,7 +59,7 @@ public class RemoteControlWithUndo {
         for (int i = 0; i < onCommands.length; i++) {
             stringBuffer.append("[Slot " + i + "] " + onCommands[i].getClass().getSimpleName() + "   " + offCommands[i].getClass().getSimpleName() + "\n");
         }
-        stringBuffer.append("[Undo]" + undoCommand.getClass().getSimpleName() + "\n");
+        stringBuffer.append("[Undo] " + undoCommand.getClass().getSimpleName() + "\n");
         return stringBuffer.toString();
     }
 }

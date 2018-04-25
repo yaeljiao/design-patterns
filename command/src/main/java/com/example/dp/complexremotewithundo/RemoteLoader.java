@@ -28,16 +28,22 @@ public class RemoteLoader {
         // 卡槽4控制风扇低速转动开关
         remoteControl.setCommand(3, ceilingFanLowSpeedCommand, ceilingFanOffCommand);
 
+        // 当前遥控器的状态
+        System.out.println(remoteControl);
+
         // 控制客厅灯
         remoteControl.onButtonWasPushed(0);
         remoteControl.offButtonWasPushed(0);
+        System.out.println("按下Undo按键");
         remoteControl.undoButtonWasPushed();
 
         // 控制风扇
         remoteControl.onButtonWasPushed(1);
+        System.out.println("按下Undo按键");
         remoteControl.undoButtonWasPushed();
         remoteControl.onButtonWasPushed(2);
         remoteControl.onButtonWasPushed(3);
+        System.out.println("按下Undo按键");
         remoteControl.undoButtonWasPushed();
     }
 }
