@@ -15,5 +15,6 @@
         <module>decorator</module>
         <module>factory</module>
         <module>command</module>
+        <module>adapter</module>
     </modules>
 </project>
