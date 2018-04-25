@@ -7,10 +7,10 @@ Java语言设计模式总结和Demo，部分参考《Head First Design Patterns�
 ## 创建型模式
 
 - [单例模式(Singleton)](https://github.com/yaeljiao/design-patterns/blob/master/singleton/README.md)
+- [简单工厂(Simple Factory)](https://github.com/yaeljiao/design-patterns/blob/master/factory/README.md)
+- [工厂方法模式(Factory Method)](https://github.com/yaeljiao/design-patterns/blob/master/factory/README.md)
+- [抽象工厂模式(Abstract Factory)](https://github.com/yaeljiao/design-patterns/blob/master/factory/README.md)
 - 原型模式(Prototype)
-- 简单工厂模式(Simple Factory)
-- 工厂方法模式(Factory Method)
-- 抽象工厂模式(Abstract Factory)
 - 创建者模式(Builder)
 
 
